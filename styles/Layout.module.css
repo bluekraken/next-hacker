@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f6f6ef;
+}
+
+.nav {
+  align-items: center;
+  background: #f60;
+  display: flex;
+  gap: 0.5em;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.nav > * {
+  display: inline-block;
+  color: black;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.main_title {
+  font-weight: bold;
+  margin-left: 1 em;
+}
+
+.back_button {
+  cursor: pointer;
+}
